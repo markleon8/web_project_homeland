@@ -2,7 +2,7 @@
   padding-top: 2.65625%; /* 34px de 1280px */
 }
 
-.nav__logo {
+.header__logo {
   display: block;
   margin: 0 auto 7.1093%; /* 91px */
 }
@@ -46,7 +46,7 @@
     padding-top: 3.90625%; /* 30px de 768px */
   }
 
-  .nav__logo {
+  .header__logo {
     display: block;
     margin: 0 auto 11.71875%; /* 90px de 768px */
   }
@@ -84,7 +84,7 @@
     padding-top: 6.25%;
   }
 
-  .nav__logo {
+  .header__logo {
     display: block;
     margin: 0 auto 15.625%;
     max-width: 58.75%; /* 188px de 320px */

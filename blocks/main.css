@@ -1,9 +1,9 @@
-.article {
+.main {
   padding: 0 0 7.1875% 11.71875%; /* 92px y 150px */
   text-align: left;
 }
 
-.article__title {
+.main__title {
   font-size: 54px;
   line-height: 1.074; /* 58 / 54 */
   font-weight: 900;
@@ -11,22 +11,22 @@
   max-width: 64.84375%; /* 830px */
 }
 
-.article__quote,
-.article__quote_autor {
+.main__quote,
+.main__quote_autor {
   font-size: 24px;
   line-height: 1.417; /* 34 / 24 */
   font-weight: 400;
   max-width: 57.65625%; /* 738px */
 }
 
-.article__quote_autor {
+.main__quote_autor {
   margin-top: 0.78125%; /* 10px */
   margin-bottom: 2.5%; /* 32px */
   text-align: right;
 
 }
 
-.article__description {
+.main__description {
   font-size: 16px;
   line-height: 1.63; /* 163% */
   font-weight: 400;
@@ -38,12 +38,12 @@
 /* 768 px (tablet) */
 
 @media (min-width: 544px) and (max-width: 1023.98px) {
-  .article {
+  .main {
     padding: 0 0 11.4583% 3.125%; /* 88px 24px */
     text-align: left;
   }
 
-  .article__title {
+  .main__title {
     font-size: 45px;
     line-height: 1.0889; /* 49 / 45 */
     font-weight: 900;
@@ -51,21 +51,21 @@
     max-width: 92.0572%; /* 707 de 768px */
   }
 
-  .article__quote,
-  .article__quote_autor {
+  .main__quote,
+  .main__quote_autor {
     font-size: 24px;
     line-height: 1.417; /* 34 / 24 */
     font-weight: 400;
     max-width: 93.75%; /* 720px de 768px */
   }
 
-  .article__quote_autor {
+  .main__quote_autor {
     margin-top: 1.3020%; /* 10px */
     margin-bottom: 4.1666%; /* 32px */
     text-align: right;
   }
 
-  .article__description {
+  .main__description {
     font-size: 16px;
     line-height: 1.63; /* 163% */
     font-weight: 400;
@@ -77,12 +77,12 @@
 /* 320 px (monbile) */
 
 @media (max-width: 543px) {
- .article {
+ .main {
     padding: 0 0 20% 5%;
     text-align: left;
   }
 
-  .article__title {
+  .main__title {
     font-weight: 900;
     font-size: 32px;
     line-height: 1.09; /* 35 / 32 */
@@ -90,23 +90,22 @@
     max-width: 90%;
   }
 
-  .article__quote,
-  .article__quote_autor {
+  .main__quote,
+  .main__quote_autor {
     font-weight: 400;
     font-size: 24px;
     line-height: 1.25; /* 30 / 24 */
-
     max-width: 90%;
   }
 
-  .article__quote_autor {
+  .main__quote_autor {
     line-height: 1.417; /* 34 / 24 */
     margin-top: 3.125%;
     margin-bottom: 23.75%;
     text-align: right;
   }
 
-  .article__description {
+  .main__description {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.63;
