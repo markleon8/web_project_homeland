@@ -1,0 +1,117 @@
+.header {
+  padding-top: 2.65625%; /* 34px de 1280px */
+}
+
+.nav__logo {
+  display: block;
+  margin: 0 auto 7.1093%; /* 91px */
+}
+
+
+.header__content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__title {
+  font-size: 96px;
+  line-height: 1.04; /* 100 / 96 */
+  font-weight: 900; /* Inter Black */
+  margin-bottom: 2.5%; /* 32px de 1280px */
+  max-width: 56.25%; /* 720px de 1280px */
+}
+
+.header__text {
+  font-size: 30px;
+  line-height: 1.2; /* 36 / 30 */
+  font-weight: 400; /* Inter Regular */
+  margin-bottom: 5%; /* 64px */
+  max-width: 56.25%; /* 720px de 1280px */
+}
+
+.header__image {
+  width: 100%;
+  max-width: 76.875%; /* 984px de 1280px */
+  height: auto;
+  display: block;
+  margin: 0 auto 7.1875%; /* 92px */
+}
+
+/* 768 px (tablet) */
+
+@media (min-width: 544px) and (max-width: 1023.98px) {
+  .header {
+    padding-top: 3.90625%; /* 30px de 768px */
+  }
+
+  .nav__logo {
+    display: block;
+    margin: 0 auto 11.71875%; /* 90px de 768px */
+  }
+
+  .header__title {
+    font-size: 75px;
+    line-height: 1.0533; /* 79 / 75 */
+    font-weight: 900;
+    margin-bottom: 3.2552%; /* 25px de 768px */
+    max-width: 69.01%; /* 530px de 768px */
+  }
+
+  .header__text {
+    font-size: 30px;
+    line-height: 1.2; /* 36 / 30 */
+    font-weight: 400;
+    margin-bottom: 3.90625%; /* 30px */
+    max-width: 93.75%; /* 720px de 768px */
+  }
+
+  .header__image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 11.71875%; /* 90px */
+  }
+
+}
+
+/* 320 px (monbile) */
+
+@media (max-width: 543px) {
+ .header {
+    padding-top: 6.25%;
+  }
+
+  .nav__logo {
+    display: block;
+    margin: 0 auto 15.625%;
+    max-width: 58.75%; /* 188px de 320px */
+  }
+
+  .header__title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.1; /* 44 / 40 */
+    margin-bottom: 5%;
+    max-width: 71.25%;
+  }
+
+  .header__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25; /* 20 / 16 */
+    margin-bottom: 12.5%;
+    max-width: 90%;
+  }
+
+  .header__image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20%;
+  }
+
+  }
