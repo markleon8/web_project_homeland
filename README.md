@@ -26,3 +26,4 @@ La página simula un sitio de contenido editorial con encabezado visual, artícu
 - **Buenas prácticas de line-height y espaciado tipográfico**.
 
 ## 🌐 Enlace a GitHub Pages
+https://markleon8.github.io/web_project_homeland
