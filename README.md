@@ -24,6 +24,8 @@ La página simula un sitio de contenido editorial con encabezado visual, artícu
 - **Fuentes personalizadas con `@font-face`**: Uso de la tipografía Inter (`Regular` y `Black`) cargadas localmente en formato `.woff2`.
 - **Diseño responsive**: Se realizaron ajustes progresivos en tipografías, paddings y márgenes según el punto de ruptura.
 - **Buenas prácticas de line-height y espaciado tipográfico**.
+- **Grid Layout**: Para organizar secciones en un diseño de cuadrícula flexible y responsivo.
+- **Sombras y Gradientes**: Aplicadas en imágenes y botones para crear profundidad visual y mejorar el contraste. Gradientes usados en los botones para un diseño más atractivo y moderno.
 
 ## 🌐 Enlace a GitHub Pages
 https://markleon8.github.io/web_project_homeland
